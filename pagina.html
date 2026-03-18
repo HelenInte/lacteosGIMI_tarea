@@ -12,11 +12,37 @@
 </head>
 <body>
 
-<header>
-    <nav
+    <header>
+        <nav class="navbar navbar-dark bg-dark fixed-top">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#"> <i class="bi bi-box2-heart-fill"></i> LACTEOS GIMI</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasDarkNavbar">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                
+                <div class="offcanvas offcanvas-end text-bg-dark" tabindex="-1" id="offcanvasDarkNavbar">
+                    <div class="offcanvas-header">
+                        <h5 class="offcanvas-title">Lacteos GIMI</h5>
+                        <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas"></button>
+                    </div>
+                    <div class="offcanvas-body">
+                        <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                            <li class="nav-item">
+                                <a class="nav-link active" href="#">PRODUCTOS</a>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">COMBOS</a>
+                                <ul class="dropdown-menu dropdown-menu-dark">
+                                    <li><a class="dropdown-item" href="#">SupeGIMI</a></li>
+                                    <li><a class="dropdown-item" href="#">PaquetGIMI</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </nav>
 
-
-    </nav>
     
 </header>
 
